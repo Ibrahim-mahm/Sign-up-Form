@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 80%;
+}
+.text {
+position: absolute;
+top: 10vh;
+left: 55vw;
+font-weight: 700;
+font-family: monospace;
+font-size: 1rem;
+}
+.formbox {
+    width: 700px;
+    height: 220px;
+    position: absolute;
+    top: 40vh;
+    left: 640px;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 0.5rem;
+    border: 1px solid white;
+    box-shadow: 0.5px 0.5px 5px grey;
+}
+h1 {
+    transform: translateX(60px);
+    font-size: 1.2rem;
+}
+.black {
+    position: absolute;
+    width: 50vw;
+    height: 9.25vh;
+    top: 25vh;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 3rem;
+    background: black;
+    opacity: 60%;
+    z-index: 1;
+}
+.first {
+    position: relative;
+    left: 60px;
+    bottom: 7px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.second {
+    position: relative;
+    left: 400px;
+    bottom: 38px; 
+    font-weight: bold;  
+    font-size: 10px;
+}
+.third,.fifth {
+    position: relative;
+    left: 60px;
+    bottom: 18px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.eye {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    right: 25px;
+    top: 3px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.fourth,.sixth{
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 10px;
+}
+#submit {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin-left: 60px;
+    bottom: 14px;
+    background-color: lightgreen;
+    font-family: monospace;
+    border-radius: 5px;
+}
+#submit:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+.finish{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+a {
+    color: lightgreen;
+}
